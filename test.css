@@ -1,0 +1,216 @@
+ /* ENTÊTE */
+ body {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    height: 70px;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: darkorange;
+    margin-left: 20px;
+}
+
+.collapse-navbar {
+    margin-left: 110px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+/* PRINCIPAL */
+.bloc1 {
+    display: flex;
+    background-color: wheat;
+    height: 380px;
+}
+
+.bloc2 {
+    display: flex;
+}
+
+.slogan {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+    padding-top: 40px;
+}
+
+.slogan2 {
+    color: darkorange;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.para2 {
+    padding: 20px;
+}
+
+.bouton1 {
+    color: white;
+    background-color: darkorange;
+    border-color: darkorange;
+    border-radius: 5px;
+    margin-left: 25px;
+    border: darkorange;
+    height: 37px;
+}
+
+img {
+    height: 350px;
+    width: 400px;
+    margin-right: 20px;
+    padding-top: 60px;
+}
+
+@keyframes ascension {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.ascension {
+    animation: ascension 3s infinite;
+}
+
+.partie3 {
+    margin-left: 10px;
+}
+
+.bloc3 {
+    display: flex;
+    background-color: blanchedalmond;
+    height: 270px;
+}
+
+.blocs {
+    display: flex;
+    background-color: blanchedalmond;
+    height: 250px;
+}
+
+.nom-bouton {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.box1 {
+    height: 190px;
+    width: 340px;
+    border-radius: 7px;
+    margin-right: 135px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    box-shadow: inset 5px 5px 10px -5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.box2 {
+    height: 190px;
+    width: 340px;
+    border-radius: 7px;
+    margin-right: 135px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: inset 5px 5px 10px -5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.box3 {
+    height: 190px;
+    width: 340px;
+    border-radius: 7px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: inset 5px 5px 10px -5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.motif {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bouton2 {
+    color: white;
+    background-color: darkorange;
+    border-color: darkorange;
+    border-radius: 5px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    border: darkorange;
+    height: 37px;
+    width: 200px;
+}
+
+.form-control {
+    border-color: #ced4da;
+}
+
+.form-control:focus {
+    border-color: darkorange;
+    box-shadow: 0 0 0 0.25rem rgba(255, 140, 0, 0.25);
+}
+
+.dropdown {
+    display: inline-block;
+    /* position: relative; */
+}
+
+.nav-link {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    /* Positionne le dropdown en dessous du lien */
+    left: 0;
+    /* Aligne le dropdown avec le lien */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    /* Empêche les liens de s'écrire sur deux lignes */
+}
+
+.dropdown-content a:hover {
+    /* background-color: #f1f1f1; */
+    color: orange;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
